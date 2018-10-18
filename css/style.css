@@ -4,7 +4,9 @@ html {
 
 body {
     height: 100%;
-    
+    background-color: #191414
+    border:5px #999966_;
+    font-family: 'Ranga', cursive;
 }
 a {
     text-decoration: none;
