@@ -4,18 +4,40 @@ html {
 
 body {
     height: 100%;
-    background-color: #191414
-    border:5px #999966_;
+    background-color: gray;
+    border:50px #999966;
     font-family: 'Ranga', cursive;
 }
 a {
     text-decoration: none;
 }
 
+.menu {
+    width: 30%
+}
+
+
 .main {
     height: 100%;
+    width:70%;
+    display: flex;
+    justify-content:space-around;
 }
 .social-image{
     width: 30px;
     margin: 15px;
+}
+
+.header {
+    display: flex;
+    justify-content:center;
+}
+
+.container {
+    display: flex;
+}
+
+.picture {
+    width:30%;
+    align-self:center;
 }
