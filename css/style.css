@@ -5,8 +5,9 @@ html {
 
 body {
     height: 100%;
-    background-color: gray;
+    background-image: url( https://media.giphy.com/media/9zXOagiss0G3OOEoYO/giphy.gif);
     font-family: 'Ranga', cursive;
+    color: #adad85;
     font-size: x-large;
     margin:0;
 }
@@ -42,10 +43,14 @@ a {
 .picture {
     width:100%;
     align-self:center;
+    display: flex;
+    justify-content:center;
 }
 
 .thumbnail-image {
     width:300px;
+    display: flex;
+    justify-content:center;
 }
 
 .rapper {
@@ -53,4 +58,8 @@ a {
     height: 100%;
     display: flex;
     flex-direction: column;
+}
+
+.navbar{
+    
 }
